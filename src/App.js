@@ -1,16 +1,17 @@
 import React from "react";
+import Language from "./Language";
 
 const Hero=()=>{
   return(
   <div>
-<section className="hero is-primary">
-  <div className="hero-body">
-    <div className="container">
-      <h1 className="title">
-        お試しいい感じのサイト
+<section class="hero is-primary">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+      　API
       </h1>
-      <h2 className="subtitle">
-        そんなもんできるわけ
+      <h2 class="subtitle">
+        お試し
       </h2>
     </div>
   </div>
@@ -22,6 +23,7 @@ const App = () => {
   return (
 <div>
 <Hero />
+<Language />
 <body>
   <section className="section">
     <div className="container">
